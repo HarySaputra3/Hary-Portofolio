@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hary-Portofolio</title>
+    <!-- UNICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add favicon -->
+    <!-- <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    /> -->
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Hary Portofolio</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav_menu_list">
+            <li class="nav_list">
+              <a href="#home" class="nav-link active-link">Home</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#about" class="nav-link">About</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#projects" class="nav-link">Projects</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn"><a href="file/MyCv.pdf" download >Download CV <i class="bx bx-file"></i></a></button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class='bx bx-menu'onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>Hary Saputra</span>
+            </div>
+            <div class="featured-name">
+              <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Hi everyone, let me introduce myself my name is
+                <b>Hary Saputra</b>.I am a 4th semester student at
+                <b>Pamulang University</b>, I am 21 years old and I am an IT
+                enthusiast. I am very interested in <b>web development</b>. I
+                really enjoy listening to music, if you want to listen to my
+                playlist you can click the Spotify logo below :).
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <button class="btn"><a href="file/MyCv.pdf" download>Download CV <i class="bx bx-file"></i></a></button>
+            </div>
+            <div class="social_icons">
+              <a href="https://www.instagram.com/harysptra__">
+              <div class="icon"><i class="bx bxl-instagram"></i></a></div>
+              <a href="http://www.linkedin.com/in/harysaputra27">
+              <div class="icon"><i class="bx bxl-linkedin"></i></a></div>
+              <a href="https://github.com/HarySaputra27">
+              <div class="icon"><i class="bx bxl-github"></i></a></div>
+              <a href="https://open.spotify.com/playlist/1ZE0ymdjxzGGV8A1HXMv1U?si=4a6547da017c4c7f">
+              <div class="icon"><i class="bx bxl-spotify"></i></a></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+              <img src="assets/flyer2-removebg.png" alt="profile" />
+            </div>
+          </div>
+          <!-- <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div> -->
+        </section>
+        <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="about-info">
+                <h3>My introduction</h3>
+                <p>
+                  I really like web development, currently I'm studying it. I'm
+                  learning HTML CSS and JavaScript, but the area I'm currently
+                  interested in is backend. I studied frontend and backend to
+                  become a fullstack developer.
+                </p>
+                <div class="about-btn">
+                  <button class="btn">
+                    <a href="file/MyCv.pdf" download>
+                    Download CV <i class="bx bx-import"></i></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Frontend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Bootstrap</span>
+                  <span>JavaScript</span>
+                  <!-- <span>Vue</span>
+                  <span>React</span>
+                  <span>Angular</span> -->
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Backend</h3>
+                </div>
+                <div class="skills-list">
+                  <span>NODE.JS</span>
+                  <span>SOON...</span>
+                  <!-- <span>JAVA</span>
+                  <span>Python</span>
+                  <span>C++</span> -->
+                </div>
+              </div>
+              <div class="skills-box">
+                <div class="skills-header">
+                  <h3>Database</h3>
+                </div>
+                <div class="skills-list">
+                  <span>MySQL</span>
+                  <!-- <span>PostgreSQL</span> -->
+                  <span>MongoDB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- PROJECT BOX ---------------- -->
+
+        <section class="section" id="projects">
+          <div class="top-header">
+            <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            
+            <div class="project-box">
+              <i class="bx bx-file-find"></i>
+              <a href="https://revou-fundamental-course.github.io/8-jan-24-HarySaputra27/">
+              <h3>Calculator persegi</h3>
+              <label>mini project by Revou</label>
+              </a>
+            </div>
+            
+            <div class="project-box">
+              <i class="bx bx-file-find"></i>
+              <a href="https://harysaputra27.github.io/Frontend/">
+              <h3>Frontend</h3>
+              <label>project Frontend dicoding x dbs</label>
+              </a>
+            </div>
+
+            <div class="project-box">
+              <i class="bx bx-file-find"></i>
+              <a href="https://harysaputra27.github.io/Bookshelf-App/">
+              <h3>Bookshelf with DOM</h3>
+              <label>project Beginner Frontend dicoding x dbs</label>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- -------------- CONTACT BOX ---------------- -->
+
+        <section class="section" id="contact">
+          <div class="top-header">
+            <h1>My contact</h1>
+            <span
+              >If you are interested in me please contact me below. *This
+              contact is connected to WhatsApp for job</span
+            >
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="contact-info">
+                <h2>Find Me</h2>
+                <p><a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=harysaputra0303@gmail.com">
+                  <i class='bx bxl-gmail'></i></a>Click logo for gmail</p>
+                <p><a href="https://wa.link/wg0oip"><i class='bx bxl-whatsapp'></i></a>Click logo for WhatsApp</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-control">
+                <div class="form-inputs">
+                  <input type="text" class="input-field" placeholder="Name" />
+                  <input type="text" class="input-field" placeholder="Email" />
+                </div>
+                <div class="text-area">
+                  <textarea placeholder="Message"></textarea>
+                </div>
+                <div class="form-button">
+                  <a href="https://wa.link/wg0oip">
+                  <button class="btn">
+                    Send <i class='bx bxs-send'></i>
+                  </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <p>Hary Saputra .</p>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social-icons">
+          <div class="icon"><a href="https://www.instagram.com/harysptra__">
+            <i class="bx bxl-instagram"></i></a></div>
+          <div class="icon"><a href="http://www.linkedin.com/in/harysaputra27">
+            <i class="bx bxl-linkedin"></i></a></div>
+          <div class="icon"><a href="https://github.com/HarySaputra27">
+            <i class="bx bxl-github"></i></a></div>
+          <div class="icon"> <a href="https://open.spotify.com/playlist/1ZE0ymdjxzGGV8A1HXMv1U?si=4a6547da017c4c7f">
+            <i class="bx bxl-spotify"></i></a></div>
+        </div>
+        <div class="bottom-footer">
+          <p>
+            Copyright &copy;
+            <a href="#home" style="text-decoration: none">Hary Saputra</a> - All
+            rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
